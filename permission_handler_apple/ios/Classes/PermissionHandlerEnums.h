@@ -30,7 +30,7 @@
 // Info.plist: NSCameraUsageDescription
 // dart: PermissionGroup.camera
 #ifndef PERMISSION_CAMERA
-    #define PERMISSION_CAMERA 0
+    #define PERMISSION_CAMERA 1
 #endif
 
 // ios: PermissionGroupMicrophone
@@ -51,34 +51,34 @@
 // Info.plist: NSPhotoLibraryUsageDescription
 // dart: PermissionGroup.photos
 #ifndef PERMISSION_PHOTOS
-    #define PERMISSION_PHOTOS 0
+    #define PERMISSION_PHOTOS 1
 #endif
 
 // ios: PermissionGroupPhotosAddOnly
 // Info.plist: NSPhotoLibraryUsageDescription
 // dart: PermissionGroup.photosAddOnly
 #ifndef PERMISSION_PHOTOS_ADD_ONLY
-    #define PERMISSION_PHOTOS_ADD_ONLY 0
+    #define PERMISSION_PHOTOS_ADD_ONLY 1
 #endif
 
 // ios: [PermissionGroupLocation, PermissionGroupLocationAlways, PermissionGroupLocationWhenInUse]
 // Info.plist: [NSLocationUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationWhenInUseUsageDescription]
 // dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
 #ifndef PERMISSION_LOCATION
-    #define PERMISSION_LOCATION 0
+    #define PERMISSION_LOCATION 1
 #endif
 
 // ios: PermissionGroupNotification
 // dart: PermissionGroup.notification
 #ifndef PERMISSION_NOTIFICATIONS
-    #define PERMISSION_NOTIFICATIONS 0
+    #define PERMISSION_NOTIFICATIONS 1
 #endif
 
 // ios: PermissionGroupMediaLibrary
 // Info.plist: [NSAppleMusicUsageDescription, kTCCServiceMediaLibrary]
 // dart: PermissionGroup.mediaLibrary
 #ifndef PERMISSION_MEDIA_LIBRARY
-    #define PERMISSION_MEDIA_LIBRARY 0
+    #define PERMISSION_MEDIA_LIBRARY 1
 #endif
 
 // ios: PermissionGroupSensors
